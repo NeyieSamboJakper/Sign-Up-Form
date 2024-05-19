@@ -4,10 +4,10 @@
   margin: 0;
 }
 body {
-  margin-block: 12em;
+  margin-block: 15em;
   font-size: 0.7rem;
   font-family: "Roboto", sans-serif;
-  background-color: antiquewhite;
+  background-color: rgb(228, 222, 215);
 }
 .container {
   width: 80%;
@@ -66,7 +66,7 @@ input {
   font-size: 0.7rem;
   background-color: rgb(248, 240, 240);
   border-radius: 5px;
-  border: 0.2px solid rgb(223, 215, 215);
+  border: 0.2px solid rgb(46, 6, 78);
 }
 #first {
   color: rgb(46, 6, 78);
