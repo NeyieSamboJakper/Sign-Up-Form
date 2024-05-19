@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin-block: 12em;
+  font-size: 0.7rem;
+  font-family: "Roboto", sans-serif;
+  background-color: antiquewhite;
+}
+.container {
+  width: 80%;
+  max-width: 300px;
+  padding-inline: 1.5em;
+  padding-block: 2em;
+  margin: auto;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+p {
+  font-size: 0.9rem;
+  margin-bottom: 1em;
+  color: rgb(90, 86, 86);
+}
+h1 {
+  font-size: 1.2rem;
+}
+button {
+  width: 100%;
+  padding: 0.4em;
+  margin-bottom: 0.7em;
+  border-radius: 5px;
+  border: 0.2px solid rgb(223, 215, 215);
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.right {
+  padding-inline: 0.2em;
+}
+#border-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4em;
+  margin-top: 0.5em;
+}
+.ninfa {
+  width: 50%;
+  max-height: 2px;
+  border: 0.2px solid rgb(223, 215, 215);
+}
+.benkum {
+  width: 50%;
+  max-height: 2px;
+  border: 0.2px solid rgb(223, 215, 215);
+}
+label {
+  margin-top: 1em;
+  font-size: 0.8rem;
+  display: block;
+}
+input {
+  width: 100%;
+  padding: 0.4em;
+  font-size: 0.7rem;
+  background-color: rgb(248, 240, 240);
+  border-radius: 5px;
+  border: 0.2px solid rgb(223, 215, 215);
+}
+#first {
+  color: rgb(46, 6, 78);
+  text-decoration: none;
+  font-weight: 600;
+}
+.code-verification {
+  font-size: 0.7rem;
+  margin-top: 0.3em;
+  color: rgb(90, 86, 86);
+}
+a {
+  color: rgb(90, 86, 86);
+}
+.Continue {
+  background-color: rgb(46, 6, 78);
+  color: white;
+  font-weight: 100;
+}
